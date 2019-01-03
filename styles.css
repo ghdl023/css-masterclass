@@ -30,10 +30,14 @@ li:first-child a {
   color: blue;
 } */
 
-@custom-media --ipad-size (660px <= width < 850px);
+/* @custom-media --ipad-size (660px <= width < 850px);
 
 @media (--ipad-size) {
   body {
     background-color: red;
   }
+} */
+
+.header-target {
+  color: color-mod(tomato alpha(50%));
 }
