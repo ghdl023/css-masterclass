@@ -30,7 +30,7 @@ li:first-child a {
   color: blue;
 } */
 
-@custom-media --ipad-size (max-width: 850px);
+@custom-media --ipad-size (660px <= width < 850px);
 
 @media (--ipad-size) {
   body {
