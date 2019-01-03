@@ -5,7 +5,7 @@ I'll be css master (Flexbox, Grid, PostCSS, CSSNext)
 ### CSS Theory
 
 - [x] Flexbox
-- [ ] Grid
+- [x] Grid
 - [ ] PostCSS / CSSNext / CSS4
 
 ### CSS Pracice
