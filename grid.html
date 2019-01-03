@@ -22,8 +22,11 @@
       }
 
       .box:first-child {
-        grid-row: span 3;
-        grid-column: span 2;
+        grid-area: 2 / 2 / 4 /-1;
+      }
+
+      .box:nth-child(14) {
+        grid-area: span 2 / span 2;
       }
 
       .box:nth-child(odd) {
