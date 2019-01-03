@@ -23,3 +23,9 @@ li:first-child a {
   color: var(--awesomeColor);
   border: var(--awesomeBorder);
 }
+
+@custom-selector :--headers h1, h2, .header-target, h4, h5;
+
+:--headers {
+  color: blue;
+}
