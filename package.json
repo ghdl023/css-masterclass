@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/gwee1216/css-masterclass/issues"
   },
-  "homepage": "https://github.com/gwee1216/css-masterclass#readme"
+  "homepage": "https://github.com/gwee1216/css-masterclass#readme",
+  "dependencies": {
+    "postcss-preset-env": "^6.5.0"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
+      }
+    }
+  }
 }
