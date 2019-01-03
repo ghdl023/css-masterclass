@@ -6,6 +6,20 @@ li:matches(:nth-child(even), .target) {
 } 
 */
 
+/* 
+Not
+
 li:not(.target) {
   background-color: tomato;
+} 
+*/
+
+:root {
+  --awesomeColor: tomato;
+  --awesomeBorder: 2px solid tomato;
+}
+
+li:first-child a {
+  color: var(--awesomeColor);
+  border: var(--awesomeBorder);
 }
