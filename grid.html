@@ -9,9 +9,9 @@
       .father {
         display: grid;
         grid-gap: 5px;
-        grid-template-columns: repeat(4, 1fr) [last-line];
         grid-auto-rows: 100px;
         grid-auto-flow: row dense;
+        grid-template-columns: repeat(5, 1fr);
       }
 
       .box {
@@ -22,7 +22,8 @@
       }
 
       .box:first-child {
-        grid-column: 2 / last-line;
+        grid-row: span 3;
+        grid-column: span 2;
       }
 
       .box:nth-child(odd) {
@@ -52,6 +53,20 @@
       <div class="box">14</div>
       <div class="box">15</div>
       <div class="box">16</div>
+      <div class="box">17</div>
+      <div class="box">18</div>
+      <div class="box">19</div>
+      <div class="box">20</div>
+      <div class="box">21</div>
+      <div class="box">22</div>
+      <div class="box">23</div>
+      <div class="box">24</div>
+      <div class="box">25</div>
+      <div class="box">26</div>
+      <div class="box">27</div>
+      <div class="box">28</div>
+      <div class="box">29</div>
+      <div class="box">30</div>
     </div>
   </body>
 </html>
