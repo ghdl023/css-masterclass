@@ -39,6 +39,6 @@ li:first-child a {
 } */
 
 .header-target {
-  color: color-mod(tomato alpha(50%));
+  color: gray(50);
   font-family: system-ui;
 }
