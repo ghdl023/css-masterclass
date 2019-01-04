@@ -10,7 +10,7 @@ I'll be css master (Flexbox, Grid, PostCSS, CSSNext)
 
 ### CSS Pracice
 
-- [ ] Colorful eCommerce
+- [x] Colorful eCommerce
 - [ ] Meal App
 - [ ] News App
 - [ ] Recepe App
