@@ -6,7 +6,7 @@ I'll be css master (Flexbox, Grid, PostCSS, CSSNext)
 
 - [x] Flexbox
 - [x] Grid
-- [ ] PostCSS / CSSNext / CSS4
+- [x] PostCSS / CSSNext / CSS4
 
 ### CSS Pracice
 
