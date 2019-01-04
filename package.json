@@ -4,7 +4,7 @@
   "description": "I'll be css master(Flexbox, Grid, PostCSS, CSSNext)",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel ./practiceProjects/1/index.html"
   },
   "repository": {
     "type": "git",
