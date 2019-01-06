@@ -108,7 +108,8 @@ body {
 }
 
 .featured-meal {
-  background-image: url("https://i.pinimg.com/564x/66/d3/8b/66d38b01c7914f0c1e6caa68f5aaeead.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("https://i.pinimg.com/564x/66/d3/8b/66d38b01c7914f0c1e6caa68f5aaeead.jpg");
 }
 
 .recipes {
